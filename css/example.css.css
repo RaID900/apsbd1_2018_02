@@ -1,0 +1,55 @@
+/*header*/
+body {
+ margin: 0;
+ padding: 0;
+}
+
+header div, main {
+ max-width: 960px;
+ margin: 0 auto;
+ padding: 0 1em 0 1em;
+}
+
+header {
+ background: #6390bc;
+ width: 100%;
+ top: 0;
+ position: fixed;
+}
+
+header h1 {
+ float: left;
+ font-family: helvetica, arial, sans-serif;
+}
+
+main {
+ padding: 5em 1em 1em 1em;
+}
+
+header a {
+ text-decoration: none;
+ color: white;
+}
+
+header li {
+ display: inline-block;
+ margin-right: 1em;
+}
+
+header li a:hover {
+ color: blue;
+}
+
+header ul {
+ float: right;
+ list-style-type: none;
+ padding-top: 1em;
+}
+
+@media only screen and (max-width: 520px) {
+ header { text-align: center; position: relative; }
+ main { padding: 1em; }
+ header h1 { float: none; margin: 0; }
+ header ul { float: none; margin: auto;}
+}﻿
+
